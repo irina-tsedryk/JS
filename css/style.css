@@ -1,0 +1,183 @@
+* {
+margin: 0;
+padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+display: block;
+}
+body {
+font: 12px/18px Arial, sans-serif;
+width: 100%;
+background: #CECBD2;
+}
+.wrapper {
+width: 900px;
+margin: 0 auto;
+height: 970px; 
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+height: 198px;
+background: white;
+}
+
+.logo {
+float:left;
+width:200px;
+height:70px;
+}
+
+.menu{
+float:right;
+width:170px;
+height:40px;
+padding:30px 0 0 0;
+}
+
+.menu ul{
+list-style:none;
+margin:0px;
+display:block; 
+}
+
+.menu ul li.divider{
+height:11px;
+width:3px;
+float:left; 
+display:block; 
+padding:3px 0 0 0;
+}
+
+.menu ul li{
+list-style:none;
+float:left;
+padding:0px;
+font-family:Arial, Helvetica, sans-serif; 
+font-size:8px;
+}
+
+.menu ul li a{
+height:24px; 
+width: auto;
+float:left;
+text-decoration:none;
+padding:0 8px 0 8px; 
+margin:0px;
+color: #2A2FAC;
+text-align:center;
+}
+
+.menu ul li a.current{
+height:24px;
+width: auto;
+float:left;
+text-decoration:none;
+padding:0 8px 0 8px;
+color: #2A2FAC;
+}
+
+.middle_box{
+height:100px;
+width: 900px;	
+}
+
+.menus{
+padding-top: 70px;
+height: 30px;
+background: url(../images/menus.png);
+}
+
+.nav {
+margin:0px;
+padding-left: 225px;
+}
+
+.nav li {
+list-style:none;
+float: left;
+position: relative;
+font: bold 11px Arial, Verdana;
+padding: 0 0 0 25px;
+}
+
+.nav li a {
+display: block;
+text-shadow: 0 1px 0.5px  white;
+color: #1C168D;
+padding: 6px;
+text-decoration: none;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+width: 100%;
+position: relative;
+background: white;
+}
+.middle:after {
+display: table;
+clear: both;
+content: '';
+}
+.container {
+width: 100%;
+float: left;
+overflow: hidden;
+}
+.content {
+padding: 0 0 0 211px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+float: left;
+width: 211px;
+height: 692px;
+margin-left: -100%;
+position: relative;
+background: #D3D3D3;
+font: bold 14px Arial, Verdana;
+}
+
+.left-sidebar p{
+width: 186px;
+height: 30px;
+background: url(../images/footer.png);	
+box-shadow: 0px 1px 5px 0px white;
+color: white;
+padding: 5px 0 0 25px;
+}
+
+.left-sidebar ul{
+width: 186px;
+padding: 20px 0 0 30px;
+color: #1C168D;
+}
+
+.left-sidebar ul li{
+list-style:none;
+padding-top: 10px;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+height: 76px;
+background: url(../images/footer.png);
+}
+
+.contacts{
+float:left;
+padding-left:23px;
+padding-top:22px;
+font: bold 10px Arial, Verdana;
+color: white;
+}
+.footer_logo{
+float:right;
+}
