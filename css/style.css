@@ -6,7 +6,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 display: block;
 }
 body {
-font: 12px/18px Arial, sans-serif;
+font: 12px/18px Calibri, Arial, sans-serif;
 width: 100%;
 background: #CECBD2;
 }
@@ -55,8 +55,7 @@ padding:3px 0 0 0;
 list-style:none;
 float:left;
 padding:0px;
-font-family:Arial, Helvetica, sans-serif; 
-font-size:8px;
+font: 8px Calibri, Arial, Verdana;
 }
 
 .menu ul li a{
@@ -89,6 +88,10 @@ padding-top: 70px;
 height: 30px;
 background: url(../images/menus.png);
 }
+.menus  li a:hover {
+    background-color: #1C168D;
+	color: white;
+}
 
 .nav {
 margin:0px;
@@ -99,7 +102,7 @@ padding-left: 225px;
 list-style:none;
 float: left;
 position: relative;
-font: bold 11px Arial, Verdana;
+font: bold 11px Calibri, Arial, Verdana;
 padding: 0 0 0 25px;
 }
 
@@ -123,26 +126,55 @@ display: table;
 clear: both;
 content: '';
 }
+
 .container {
 width: 100%;
 float: left;
 overflow: hidden;
 }
+
 .content {
 padding: 0 0 0 211px;
+margin: 10px 43px 10px 43px;
 }
 
 
+
+h1{
+padding: 25px 0 15px 0;
+color: #1C168D;
+font: 17px Calibri, Arial, Verdana;
+}
+
+.img_face{
+padding: 0 0 26px 0;
+float:left; 
+margin: 0px 24px 20px 0; 
+}
+
+.line {
+margin: 0 37px;
+color: #7440ee;
+size: 2px;
+}	
+
+h2 {
+padding: 25px 0 25px 0;
+color: #7440ee;
+font: 13px Calibri, Arial, Verdana;
+}
+
 /* Left Sidebar
 -----------------------------------------------------------------------------*/
+
 .left-sidebar {
 float: left;
 width: 211px;
-height: 692px;
+height: 750px;
 margin-left: -100%;
 position: relative;
-background: #D3D3D3;
-font: bold 14px Arial, Verdana;
+background: url(../images/left-sidebar.png);
+font: 12px Calibri, Arial, Verdana;
 }
 
 .left-sidebar p{
@@ -152,18 +184,31 @@ background: url(../images/footer.png);
 box-shadow: 0px 1px 5px 0px white;
 color: white;
 padding: 5px 0 0 25px;
+font: bold 20px Calibri, Arial, Verdana;
 }
 
 .left-sidebar ul{
-width: 186px;
 padding: 20px 0 0 30px;
-color: #1C168D;
 }
 
 .left-sidebar ul li{
 list-style:none;
-padding-top: 10px;
+padding: 10px 0 0 0;
 }
+
+.left-sidebar ul li a.rollover {
+background: url(../images/icon.png) no-repeat;
+display: block; 
+text-align: center;
+width: 180px; 
+height: 20px;
+color: #2A2FAC;
+}
+ 
+.left-sidebar ul li a.rollover:hover {
+background: url(../images/icon_rol.png) no-repeat;
+}
+
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
@@ -171,11 +216,17 @@ height: 76px;
 background: url(../images/footer.png);
 }
 
-.contacts{
+.contacts {
 float:left;
 padding-left:23px;
 padding-top:22px;
-font: bold 10px Arial, Verdana;
+font: 10px Calibri, Arial, Verdana;
+color: white;
+}
+
+.contacts p a{
+text-decoration: none;
+font: 10px Calibri, Arial, Verdana;
 color: white;
 }
 .footer_logo{
