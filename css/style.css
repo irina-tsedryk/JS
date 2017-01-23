@@ -188,7 +188,7 @@ font: bold 20px Calibri, Arial, Verdana;
 }
 
 .left-sidebar ul{
-padding: 20px 0 0 30px;
+padding: 6px 0 0 10px;
 }
 
 .left-sidebar ul li{
@@ -196,17 +196,15 @@ list-style:none;
 padding: 10px 0 0 0;
 }
 
-.left-sidebar ul li a.rollover {
-background: url(../images/icon.png) no-repeat;
-display: block; 
-text-align: center;
-width: 180px; 
-height: 20px;
+.left-sidebar ul li a{
+padding: 0 0 0 30px;
 color: #2A2FAC;
+font: 14px Calibri, Arial, Verdana;
+background: url(../images/icon.png) bottom left  no-repeat;
 }
  
-.left-sidebar ul li a.rollover:hover {
-background: url(../images/icon_rol.png) no-repeat;
+.left-sidebar ul li a:hover {
+background: url(../images/icon_rol.png) bottom left  no-repeat;
 }
 
 /* Footer
