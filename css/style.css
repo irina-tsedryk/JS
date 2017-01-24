@@ -83,18 +83,19 @@ height:100px;
 width: 900px;	
 }
 
-.menus{
+.main{
 padding-top: 70px;
-height: 30px;
-background: url(../images/menus.png);
+height: 34px;
+background: url(../images/main-bg.png);
 }
-.menus  li a:hover {
-    background-color: #1C168D;
-	color: white;
+.main  li a:hover {
+ background: url(../images/hover-bg.png);
+ color: white;
 }
 
 .nav {
 margin:0px;
+padding-top: 2px;
 padding-left: 225px;
 }
 
