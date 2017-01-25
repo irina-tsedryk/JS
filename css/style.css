@@ -32,7 +32,7 @@ height:70px;
 
 .menu{
 float:right;
-width:170px;
+width:180px;
 height:40px;
 padding:30px 0 0 0;
 }
@@ -78,13 +78,17 @@ color: #004a6d;
 }
 
 .middle_box{
+position:relative;
+top:70px;
 height:100px;
 width: 900px;	
+background: url(../images/middle_baner.png);
 }
 
 .main{
-padding-top: 70px;
-height: 34px;
+position:relative;
+top:70px;
+height: 31px;
 background: linear-gradient(to bottom, #f1f1f9 0%,#e6e7f4 42%,#ddddf0 45%,#c1c2e3 88%,#a7a9d6 91%,#a1a4d4 100%); 
 }
 .main  li a:hover {
@@ -96,7 +100,6 @@ text-shadow: none
 
 .nav {
 border-top: 1.5px solid white;
-margin:0px;
 padding-left: 225px;
 }
 
