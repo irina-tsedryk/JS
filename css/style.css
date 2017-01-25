@@ -54,7 +54,7 @@ padding:3px 0 0 0;
 .menu ul li{
 list-style:none;
 float:left;
-padding:0px;
+padding-top: 2px;
 font: 8px Calibri, Arial, Verdana;
 }
 
@@ -62,10 +62,9 @@ font: 8px Calibri, Arial, Verdana;
 height:24px; 
 width: auto;
 float:left;
-text-decoration:none;
 padding:0 8px 0 8px; 
 margin:0px;
-color: #2A2FAC;
+color: #004a6d;
 text-align:center;
 }
 
@@ -75,7 +74,7 @@ width: auto;
 float:left;
 text-decoration:none;
 padding:0 8px 0 8px;
-color: #2A2FAC;
+color: #004a6d;
 }
 
 .middle_box{
@@ -86,11 +85,13 @@ width: 900px;
 .main{
 padding-top: 70px;
 height: 34px;
-background: url(../images/main-bg.png);
+background: linear-gradient(to bottom, #f1f1f9 0%,#e6e7f4 42%,#ddddf0 45%,#c1c2e3 88%,#a7a9d6 91%,#a1a4d4 100%); 
 }
 .main  li a:hover {
- background: url(../images/hover-bg.png);
- color: white;
+padding-top: 7px;
+background: linear-gradient(to bottom, #c0deea 0%,#b4d7e5 18%,#9bc8db 42%,#74b2ce 45%,#6cadca 52%,#498eb2 76%,#3b80a9 88%,#2c6f99 91%,#256893 100%);
+color: white;
+text-shadow: none
 }
 
 .nav {
@@ -110,7 +111,7 @@ padding: 0 0 0 25px;
 .nav li a {
 display: block;
 text-shadow: 0 1px 0.5px  white;
-color: #1C168D;
+color: #004a6d;
 padding: 6px;
 text-decoration: none;
 }
@@ -139,11 +140,22 @@ padding: 0 0 0 211px;
 margin: 10px 43px 10px 43px;
 }
 
+.content_top   a{
+margin-top: 0; 
+color: #004a6d;
+font: 10px Calibri, Arial, Verdana;
+}
 
+.content_top  a.divider {
+margin: 0 7px;
+}
+.content_top  a.current  {
+text-decoration: none; 
+}
 
 h1{
 padding: 25px 0 15px 0;
-color: #1C168D;
+color: #004a6d;
 font: 17px Calibri, Arial, Verdana;
 }
 
@@ -154,15 +166,32 @@ margin: 0px 24px 20px 0;
 }
 
 .line {
-margin: 0 37px;
-color: #7440ee;
+margin: 0 32px;
+color: #595795;
 size: 2px;
 }	
 
 h2 {
 padding: 25px 0 25px 0;
-color: #7440ee;
+color: #595795;
 font: 13px Calibri, Arial, Verdana;
+}
+.content_bottom  {
+margin-top: 20px; 
+color: #004a6d;
+}
+
+.content_bottom   a{
+color: #004a6d;
+font: 10px Calibri, Arial, Verdana;
+}
+
+.content_bottom  a.divider {
+margin: 9px;
+}
+
+.content_bottom  a.current  {
+text-decoration: none; 
 }
 
 /* Left Sidebar
@@ -171,17 +200,17 @@ font: 13px Calibri, Arial, Verdana;
 .left-sidebar {
 float: left;
 width: 211px;
-height: 750px;
+height: 720px;
 margin-left: -100%;
 position: relative;
-background: url(../images/left-sidebar.png);
+background:  #e7e6ef;
 font: 12px Calibri, Arial, Verdana;
 }
 
 .left-sidebar p{
 width: 186px;
 height: 30px;
-background: url(../images/footer.png);	
+background: #6f6daf;	
 border-bottom: 1.5px solid white;
 color: white;
 padding: 5px 0 0 25px;
@@ -200,7 +229,7 @@ padding: 10px 0 0 0;
 .left-sidebar ul li a{
 padding: 0 0 0 30px;
 color: #2A2FAC;
-font: 14px Calibri, Arial, Verdana;
+font: 10px Calibri, Arial, Verdana;
 background: url(../images/icon.png) bottom left  no-repeat;
 }
  
@@ -212,7 +241,7 @@ background: url(../images/icon_rol.png) bottom left  no-repeat;
 -----------------------------------------------------------------------------*/
 .footer {
 height: 76px;
-background: url(../images/footer.png);
+background: linear-gradient(to bottom, #6f6daf 0%,#7371b1 3%,#7371b1 100%); 
 }
 
 .contacts {
