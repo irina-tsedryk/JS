@@ -66,6 +66,7 @@ padding:0 8px 0 8px;
 margin:0px;
 color: #004a6d;
 text-align:center;
+cursor:default;
 }
 
 .menu ul li a.current{
@@ -75,6 +76,7 @@ float:left;
 text-decoration:none;
 padding:0 8px 0 8px;
 color: #004a6d;
+cursor:default;
 }
 
 .middle_box{
@@ -91,7 +93,8 @@ background: linear-gradient(to bottom, #f1f1f9 0%,#e6e7f4 42%,#ddddf0 45%,#c1c2e
 padding-top: 7px;
 background: linear-gradient(to bottom, #c0deea 0%,#b4d7e5 18%,#9bc8db 42%,#74b2ce 45%,#6cadca 52%,#498eb2 76%,#3b80a9 88%,#2c6f99 91%,#256893 100%);
 color: white;
-text-shadow: none
+text-shadow: none;
+cursor:default;
 }
 
 .nav {
@@ -144,6 +147,7 @@ margin: 10px 43px 10px 43px;
 margin-top: 0; 
 color: #004a6d;
 font: 10px Calibri, Arial, Verdana;
+cursor:default;
 }
 
 .content_top  a.divider {
@@ -184,6 +188,7 @@ color: #004a6d;
 .content_bottom   a{
 color: #004a6d;
 font: 10px Calibri, Arial, Verdana;
+cursor:default;
 }
 
 .content_bottom  a.divider {
@@ -231,10 +236,12 @@ padding: 0 0 0 30px;
 color: #2A2FAC;
 font: 10px Calibri, Arial, Verdana;
 background: url(../images/icon.png) bottom left  no-repeat;
+cursor:default;
 }
  
 .left-sidebar ul li a:hover {
 background: url(../images/icon_rol.png) bottom left  no-repeat;
+cursor:default;
 }
 
 /* Footer
