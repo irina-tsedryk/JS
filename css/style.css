@@ -6,7 +6,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 display: block;
 }
 body {
-font: 12px/18px Arial, sans-serif;
+font: 12px/18px Calibri, Arial, sans-serif;
 width: 100%;
 background: #CECBD2;
 }
@@ -54,19 +54,17 @@ padding:3px 0 0 0;
 .menu ul li{
 list-style:none;
 float:left;
-padding:0px;
-font-family:Arial, Helvetica, sans-serif; 
-font-size:8px;
+padding-top: 2px;
+font: 8px Calibri, Arial, Verdana;
 }
 
 .menu ul li a{
 height:24px; 
 width: auto;
 float:left;
-text-decoration:none;
 padding:0 8px 0 8px; 
 margin:0px;
-color: #2A2FAC;
+color: #004a6d;
 text-align:center;
 }
 
@@ -76,7 +74,7 @@ width: auto;
 float:left;
 text-decoration:none;
 padding:0 8px 0 8px;
-color: #2A2FAC;
+color: #004a6d;
 }
 
 .middle_box{
@@ -84,13 +82,20 @@ height:100px;
 width: 900px;	
 }
 
-.menus{
+.main{
 padding-top: 70px;
-height: 30px;
-background: url(../images/menus.png);
+height: 34px;
+background: linear-gradient(to bottom, #f1f1f9 0%,#e6e7f4 42%,#ddddf0 45%,#c1c2e3 88%,#a7a9d6 91%,#a1a4d4 100%); 
+}
+.main  li a:hover {
+padding-top: 7px;
+background: linear-gradient(to bottom, #c0deea 0%,#b4d7e5 18%,#9bc8db 42%,#74b2ce 45%,#6cadca 52%,#498eb2 76%,#3b80a9 88%,#2c6f99 91%,#256893 100%);
+color: white;
+text-shadow: none
 }
 
 .nav {
+border-top: 1.5px solid white;
 margin:0px;
 padding-left: 225px;
 }
@@ -99,14 +104,14 @@ padding-left: 225px;
 list-style:none;
 float: left;
 position: relative;
-font: bold 11px Arial, Verdana;
+font: bold 11px Calibri, Arial, Verdana;
 padding: 0 0 0 25px;
 }
 
 .nav li a {
 display: block;
 text-shadow: 0 1px 0.5px  white;
-color: #1C168D;
+color: #004a6d;
 padding: 6px;
 text-decoration: none;
 }
@@ -123,59 +128,133 @@ display: table;
 clear: both;
 content: '';
 }
+
 .container {
 width: 100%;
 float: left;
 overflow: hidden;
 }
+
 .content {
 padding: 0 0 0 211px;
+margin: 10px 43px 10px 43px;
 }
 
+.content_top   a{
+margin-top: 0; 
+color: #004a6d;
+font: 10px Calibri, Arial, Verdana;
+}
+
+.content_top  a.divider {
+margin: 0 7px;
+}
+.content_top  a.current  {
+text-decoration: none; 
+}
+
+h1{
+padding: 25px 0 15px 0;
+color: #004a6d;
+font: 17px Calibri, Arial, Verdana;
+}
+
+.img_face{
+padding: 0 0 26px 0;
+float:left; 
+margin: 0px 24px 20px 0; 
+}
+
+.line {
+margin: 0 32px;
+color: #595795;
+size: 2px;
+}	
+
+h2 {
+padding: 25px 0 25px 0;
+color: #595795;
+font: 13px Calibri, Arial, Verdana;
+}
+.content_bottom  {
+margin-top: 20px; 
+color: #004a6d;
+}
+
+.content_bottom   a{
+color: #004a6d;
+font: 10px Calibri, Arial, Verdana;
+}
+
+.content_bottom  a.divider {
+margin: 9px;
+}
+
+.content_bottom  a.current  {
+text-decoration: none; 
+}
 
 /* Left Sidebar
 -----------------------------------------------------------------------------*/
+
 .left-sidebar {
 float: left;
 width: 211px;
-height: 692px;
+height: 720px;
 margin-left: -100%;
 position: relative;
-background: #D3D3D3;
-font: bold 14px Arial, Verdana;
+background:  #e7e6ef;
+font: 12px Calibri, Arial, Verdana;
 }
 
 .left-sidebar p{
 width: 186px;
 height: 30px;
-background: url(../images/footer.png);	
-box-shadow: 0px 1px 5px 0px white;
+background: #6f6daf;	
+border-bottom: 1.5px solid white;
 color: white;
 padding: 5px 0 0 25px;
+font: bold 20px Calibri, Arial, Verdana;
 }
 
 .left-sidebar ul{
-width: 186px;
-padding: 20px 0 0 30px;
-color: #1C168D;
+padding: 6px 0 0 10px;
 }
 
 .left-sidebar ul li{
 list-style:none;
-padding-top: 10px;
+padding: 10px 0 0 0;
 }
+
+.left-sidebar ul li a{
+padding: 0 0 0 30px;
+color: #2A2FAC;
+font: 10px Calibri, Arial, Verdana;
+background: url(../images/icon.png) bottom left  no-repeat;
+}
+ 
+.left-sidebar ul li a:hover {
+background: url(../images/icon_rol.png) bottom left  no-repeat;
+}
+
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
 height: 76px;
-background: url(../images/footer.png);
+background: linear-gradient(to bottom, #6f6daf 0%,#7371b1 3%,#7371b1 100%); 
 }
 
-.contacts{
+.contacts {
 float:left;
 padding-left:23px;
 padding-top:22px;
-font: bold 10px Arial, Verdana;
+font: 10px Calibri, Arial, Verdana;
+color: white;
+}
+
+.contacts p a{
+text-decoration: none;
+font: 10px Calibri, Arial, Verdana;
 color: white;
 }
 .footer_logo{
