@@ -1,0 +1,13 @@
+[   {
+        "title": "About Us",
+        "link": "/about.html"
+    },
+    {
+        "title": "Managment",
+        "link": "/managment.html"
+    },
+    {
+        "title": "Contact Us",
+        "link": "/contacts.html"
+    }
+]
