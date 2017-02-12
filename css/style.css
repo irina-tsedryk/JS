@@ -29,6 +29,8 @@ float:left;
 width:200px;
 height:70px;
 }
+span {cursor:default;}
+a{cursor:pointer;}
 
 .menu{
 float:right;
@@ -58,7 +60,7 @@ padding-top: 2px;
 font: 8px Calibri, Arial, Verdana;
 }
 
-.menu ul li a{
+.menu ul li a, .menu ul li span{
 height:24px; 
 width: auto;
 float:left;
@@ -66,17 +68,15 @@ padding:0 8px 0 8px;
 margin:0px;
 color: #004a6d;
 text-align:center;
-cursor:default;
 }
 
-.menu ul li a.current{
+.menu ul li span.current{
 height:24px;
 width: auto;
 float:left;
 text-decoration:none;
 padding:0 8px 0 8px;
 color: #004a6d;
-cursor:default;
 }
 
 .middle_box{
@@ -143,17 +143,16 @@ padding: 0 0 0 211px;
 margin: 10px 43px 10px 43px;
 }
 
-.content_top   a{
+.content_top   a, .content_top   span{
 margin-top: 0; 
 color: #004a6d;
 font: 10px Calibri, Arial, Verdana;
-cursor:default;
 }
 
 .content_top  a.divider {
 margin: 0 7px;
 }
-.content_top  a.current  {
+.content_top  span.current  {
 text-decoration: none; 
 }
 
@@ -185,17 +184,16 @@ margin-top: 20px;
 color: #004a6d;
 }
 
-.content_bottom   a{
+.content_bottom   a, .content_bottom   span{
 color: #004a6d;
 font: 10px Calibri, Arial, Verdana;
-cursor:default;
 }
 
 .content_bottom  a.divider {
 margin: 9px;
 }
 
-.content_bottom  a.current  {
+.content_bottom  span.current  {
 text-decoration: none; 
 }
 
@@ -236,12 +234,10 @@ padding: 0 0 0 30px;
 color: #2A2FAC;
 font: 10px Calibri, Arial, Verdana;
 background: url(../images/icon.png) bottom left  no-repeat;
-cursor:default;
 }
  
 .left-sidebar ul li a:hover {
 background: url(../images/icon_rol.png) bottom left  no-repeat;
-cursor:default;
 }
 
 /* Footer
