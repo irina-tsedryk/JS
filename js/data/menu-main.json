@@ -1,25 +1,21 @@
 [   {
         "title": "About Us",
         "link": "/about.html",
-        "color": "#fff000",
-        "description": "This page about our company."
+        "color": "#fff000"
     },
     {
         "title": "Managment",
         "link": "/managment.html",
-        "color": "#fcfcfc",
-        "description": "This page about our company."
+        "color": "#fcfcfc"
     },
     {
         "title": "Contact Us",
         "link": "/contacts.html",
-        "color": "#faaaaa",
-        "description": "This page about our company."
+        "color": "#faaaaa"
     },
     {
         "title": "Irina home page",
         "link": "http://vk.com/mikalai_funeral",
-        "color": "#faa000",
-        "description": "This page about our company."
+        "color": "#faa000"
     }
 ]
