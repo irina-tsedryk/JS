@@ -29,6 +29,8 @@ float:left;
 width:200px;
 height:70px;
 }
+span {cursor:default;}
+a{cursor:pointer;}
 
 .menu{
 float:right;
@@ -58,7 +60,7 @@ padding-top: 2px;
 font: 8px Calibri, Arial, Verdana;
 }
 
-.menu ul li a{
+.menu ul li a, .menu ul li span{
 height:24px; 
 width: auto;
 float:left;
@@ -68,7 +70,7 @@ color: #009fd3;
 text-align:center;
 }
 
-.menu ul li a.current{
+.menu ul li span.current{
 height:24px;
 width: auto;
 float:left;
@@ -95,7 +97,8 @@ background: linear-gradient(to bottom, #f1f1f9 0%,#e6e7f4 42%,#ddddf0 45%,#c1c2e
 padding-top: 7px;
 background: linear-gradient(to bottom, #c0deea 0%,#b4d7e5 18%,#9bc8db 42%,#74b2ce 45%,#6cadca 52%,#498eb2 76%,#3b80a9 88%,#2c6f99 91%,#256893 100%);
 color: white;
-text-shadow: none
+text-shadow: none;
+cursor:default;
 }
 
 .nav {
@@ -143,20 +146,14 @@ padding: 0 0 0 211px;
 margin: 10px 43px 10px 43px;
 }
 
-.content a{
-color: #009fd3;
-font: 9px Calibri, Arial, Verdana;
-text-align: center;
-}
-
-.content_top   {
+.content_top   a, .content_top   span{
 margin-top: 0; 
 }
 
 .content_top  a.divider {
 margin: 0 7px;
 }
-.content_top  a.current  {
+.content_top  span.current  {
 text-decoration: none; 
 }
 
@@ -185,9 +182,20 @@ font: 13px Calibri, Arial, Verdana;
 }
 .content_bottom   {
 margin-top: 20px; 
+color: #004a6d;
 }
+
+.content_bottom   a, .content_bottom   span{
+color: #004a6d;
+font: 10px Calibri, Arial, Verdana;
+}
+
 .content_bottom  a.divider {
-margin: 0 9px;
+margin: 9px;
+}
+
+.content_bottom  span.current  {
+text-decoration: none; 
 }
 
 /* Left Sidebar
