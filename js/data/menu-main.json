@@ -1,21 +1,27 @@
 [   {
-        "title": "About Us",
-        "link": "/about.html",
-        "color": "#fff000"
+        "title": "COMPANY",
+        "link": "/company.html",
+        "color": "#004a6d"
     },
     {
-        "title": "Managment",
-        "link": "/managment.html",
-        "color": "#fcfcfc"
+        "title": "PRODUCTS",
+        "link": "/products.html",
+        "color": "#004a6d"
     },
     {
-        "title": "Contact Us",
-        "link": "/contacts.html",
-        "color": "#faaaaa"
+        "title": "DOWNLOADS",
+        "link": "/downloads.html",
+        "color": "#004a6d"
     },
     {
-        "title": "Irina home page",
-        "link": "http://vk.com/mikalai_funeral",
-        "color": "#faa000"
+        "title": "TECHNOLOGY PORTFOLIO",
+        "link": "/technology.html",
+        "color": "#004a6d"
+    },
+	{
+        "title": "TECHNICAL SUPPORT",
+        "link": "/technical.html",
+        "color": "#004a6d"
     }
 ]
+
