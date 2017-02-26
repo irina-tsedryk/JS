@@ -62,8 +62,7 @@ function createMenuElement(data) {
     a.href = data.link;
     a.innerText = data.title;
 	a.style.color = data.color;
-	a.style.color = data.color;
-	
+	a.title = data.description;
 	li.appendChild(a);
 	
     return li;
