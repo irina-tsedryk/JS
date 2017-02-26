@@ -264,3 +264,14 @@ color: white;
 .footer_logo{
 float:right;
 }
+
+.tooltip {
+position: fixed;
+padding: 5px;
+border: 0.5px solid black;
+border-radius: 4px;
+text-align: center;
+font: 7px Calibri, Arial, Verdana;
+color: black;
+background: white;
+}
