@@ -1,0 +1,21 @@
+[   {
+        "title": "About Us",
+        "link": "/about.html",
+        "color": "#fff000"
+    },
+    {
+        "title": "Managment",
+        "link": "/managment.html",
+        "color": "#fcfcfc"
+    },
+    {
+        "title": "Contact Us",
+        "link": "/contacts.html",
+        "color": "#faaaaa"
+    },
+    {
+        "title": "Irina home page",
+        "link": "http://vk.com/mikalai_funeral",
+        "color": "#faa000"
+    }
+]
